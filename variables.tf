@@ -10,7 +10,7 @@ variable "tag" {
   default     = "terraform"
 }
 
-# variable "aws_pub_key" {
-#   description = "Public key para VM EC2 na AWS"
-#   type        = string
-# }
+variable "aws_pub_key" {
+  description = "Public key para VM EC2 na AWS"
+  type        = string
+}
