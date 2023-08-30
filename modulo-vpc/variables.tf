@@ -7,7 +7,7 @@ variable "cidr_vpc" {
 variable "cidr_subnet" {
     description = "Cidr Block para Subnet"
     type = string
-    default = "10.0.1.0/16"
+    default = "10.0.1.0/24"
 }
 
 variable "region" {
