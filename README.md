@@ -1,6 +1,6 @@
 ##########################################################################################
 
-        ## Criação de EC2 e VCP utilizando diretório do módulo vpc localmente ##
+            ## Criação de EC2 e VCP utilizando diretório do módulo vpc localmente ##
 
 ###########################################################################################
 <!-- BEGIN_TF_DOCS -->
@@ -18,9 +18,9 @@
 
 ## Modules
 
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_network"></a> [network](#module\_network) | ./modulo-vpc | n/a |
+| Name | Source |
+|------|--------|
+| <a name="module_network"></a> [network](#module\_network) | ./modulo-vpc |
 
 ## Resources
 
@@ -37,9 +37,3 @@
 | <a name="input_region"></a> [region](#input\_region) | Região onde será criado os recursos da aws | `string` | `"us-east-1"` | no |
 | <a name="input_tag"></a> [tag](#input\_tag) | Tag individual dos recursos criados na aws | `string` | `"terraform"` | no |
 
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| <a name="output_security_group_id"></a> [security\_group\_id](#output\_security\_group\_id) | n/a |
-<!-- END_TF_DOCS -->
