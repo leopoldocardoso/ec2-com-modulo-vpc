@@ -39,5 +39,7 @@
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_security_group_id"></a> [security\_group\_id](#output\_security\_group\_id) | n/a |
 <!-- END_TF_DOCS -->
