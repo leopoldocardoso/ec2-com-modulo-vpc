@@ -1,6 +1,6 @@
 ##########################################################################################
 
-            ## Criação de EC2 e VCP utilizando diretório do módulo vpc localmente ##
+            ## Criação de EC2 e VPC utilizando diretório do módulo vpc localmente ##
 
 ###########################################################################################
 <!-- BEGIN_TF_DOCS -->
